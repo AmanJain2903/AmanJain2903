@@ -18,7 +18,7 @@ I am a Software and AI/ML Engineer graduating with a Master’s in Computer Scie
 * 🧠 **Currently Building:** Architecting and scaling **[BonPlan.ai](https://bonplanai.com)** — a production-ready AI travel platform powered by ReAct agents, custom MCP tools, FastAPI, and React.
 * 🤖 **AI Digital Twin:** Developed **Mickey**, a fully contextual AI clone built to handle my portfolio interactions and calendar bookings. 
 * 🌟 **Community & Leadership:** Founded the first AI/ML Hub at my undergrad college, scaling it to 50+ members and mentoring over 500 students.
-* 📸 **Creative Outlet:** Passionate about urban and cinematic photography. Catch my work at Frame-Lens-Chronicles.
+* 📸 **Creative Outlet:** Passionate about urban and cinematic photography. Catch my work at **[Frame-Lens-Chronicles](https://www.instagram.com/framelenschronicles/)**.
 * 🏆 **Hackathons:** Ranked in the top 2% in Amazon’s ML Hackathon.
 
 ---
