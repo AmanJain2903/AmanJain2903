@@ -12,7 +12,7 @@
 
 ## 🚀 About Me
 
-I am a Software and AI/ML Engineer graduating with a Master’s in Computer Science from Santa Clara University (Spring 2026). I specialize in building agentic AI, multi-agent orchestration, and full-stack software architecture. 
+I am a Software and AI/ML Engineer with a Master’s in Computer Science from Santa Clara University (Spring 2026). I specialize in building agentic AI, multi-agent orchestration, and full-stack software architecture. 
 
 * 💻 **Next Stop:** Incoming **Software Engineer at Microsoft** (Redmond, July 2026), following my SWE Internship in Summer '25.
 * 🧠 **Currently Building:** Architecting and scaling **[BonPlan.ai](https://bonplanai.com)** — a production-ready AI travel platform powered by ReAct agents, custom MCP tools, FastAPI, and React.
