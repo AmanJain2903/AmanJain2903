@@ -5,7 +5,7 @@
 
   <a href="https://linkedin.com/in/aman-jain-7b6478224"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:amanjn2003@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://bonplanai.com"><img src="https://img.shields.io/badge/BonPlan_AI-000000?style=for-the-badge&logo=rocket&logoColor=white" alt="BonPlan - My Latest Project"/></a>
+  <a href="https://heyitsaman.dev"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=globe&logoColor=white" alt="Portfolio"/></a>
 </div>
 
 ---
