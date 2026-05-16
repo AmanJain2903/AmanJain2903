@@ -1,0 +1,272 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1350" viewBox="0 0 2400 1350" role="img" aria-labelledby="title desc">
+  <title id="title">Mickey - My AI Clone</title>
+  <desc id="desc">Mickey-only architecture diagram showing the chat widget, API proxy, Mickey FastAPI routes, MasterAgent, specialist agents, RAG stores, runtime MongoDB data, admin controls, and external service integrations.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#334155"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#2563eb"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#059669"/>
+    </marker>
+    <style>
+      .bg { fill: #f8fafc; }
+      .band { fill: #e2e8f0; opacity: .66; }
+      .title { font: 800 50px Arial, sans-serif; fill: #0f172a; }
+      .subtitle { font: 400 18px Arial, sans-serif; fill: #475569; }
+      .section { font: 800 20px Arial, sans-serif; fill: #0f172a; letter-spacing: .05em; }
+      .box { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; rx: 18; }
+      .blue { fill: #eff6ff; stroke: #60a5fa; stroke-width: 2; rx: 18; }
+      .green { fill: #ecfdf5; stroke: #34d399; stroke-width: 2; rx: 18; }
+      .amber { fill: #fffbeb; stroke: #f59e0b; stroke-width: 2; rx: 18; }
+      .rose { fill: #fff1f2; stroke: #fb7185; stroke-width: 2; rx: 18; }
+      .violet { fill: #f5f3ff; stroke: #8b5cf6; stroke-width: 2; rx: 18; }
+      .slate { fill: #f1f5f9; stroke: #64748b; stroke-width: 2; rx: 18; }
+      .cluster { fill: rgba(255,255,255,.82); stroke: #94a3b8; stroke-width: 2; rx: 26; stroke-dasharray: 8 8; }
+      .h { font: 800 19px Arial, sans-serif; fill: #0f172a; }
+      .hs { font: 800 16px Arial, sans-serif; fill: #0f172a; }
+      .p { font: 400 14px Arial, sans-serif; fill: #334155; }
+      .ps { font: 400 12.5px Arial, sans-serif; fill: #475569; }
+      .mono { font: 600 12.5px "SFMono-Regular", Consolas, monospace; fill: #334155; }
+      .tag { font: 800 11px Arial, sans-serif; fill: #334155; letter-spacing: .08em; }
+      .line { stroke: #334155; stroke-width: 2.2; fill: none; marker-end: url(#arrow); }
+      .lineBlue { stroke: #2563eb; stroke-width: 2.6; fill: none; marker-end: url(#arrowBlue); }
+      .lineGreen { stroke: #059669; stroke-width: 2.6; fill: none; marker-end: url(#arrowGreen); }
+      .lineDash { stroke: #64748b; stroke-width: 2; fill: none; stroke-dasharray: 8 8; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="2400" height="1350"/>
+  <rect class="band" x="40" y="118" width="2320" height="170" rx="28"/>
+  <rect class="band" x="40" y="325" width="2320" height="200" rx="28"/>
+  <rect class="band" x="40" y="560" width="2320" height="465" rx="28"/>
+  <rect class="band" x="40" y="1060" width="2320" height="230" rx="28"/>
+
+  <text class="title" x="70" y="74">Mickey - My AI Clone</text>
+  <text class="subtitle" x="70" y="105">Mickey-only architecture: visitor chat, orchestration, specialist agents, RAG, admin controls, memory, rate limits, meetings, email, and lead capture.</text>
+
+  <text class="section" x="70" y="151">CLIENTS</text>
+  <text class="section" x="70" y="360">MICKEY API BOUNDARY</text>
+  <text class="section" x="70" y="595">MICKEY CORE</text>
+  <text class="section" x="70" y="1095">DATA STORES AND EXTERNAL SERVICES</text>
+
+  <rect class="blue" x="70" y="170" width="440" height="90"/>
+  <text class="h" x="92" y="198">Portfolio Visitor Chat</text>
+  <text class="p" x="92" y="223">Mickey chat widget in the public portfolio</text>
+  <text class="mono" x="92" y="245">Frontend/src/components/ChatBotWindow.tsx</text>
+
+  <rect class="violet" x="550" y="170" width="450" height="90"/>
+  <text class="h" x="572" y="198">Admin Portal</text>
+  <text class="p" x="572" y="223">Runtime settings, activation, model slots, RAG rebuilds</text>
+  <text class="mono" x="572" y="245">AdminPortal/src/pages/Dashboard.tsx</text>
+
+  <rect class="amber" x="1040" y="170" width="430" height="90"/>
+  <text class="h" x="1062" y="198">Meeting Approval Links</text>
+  <text class="p" x="1062" y="223">Approve or decline pending meeting requests</text>
+  <text class="mono" x="1062" y="245">/api/mickey/meeting/{approve|decline}/{token}</text>
+
+  <rect class="slate" x="1510" y="170" width="390" height="90"/>
+  <text class="h" x="1532" y="198">Mickey n8n Exports</text>
+  <text class="p" x="1532" y="223">Reference workflow artifacts for the Mickey design</text>
+  <text class="mono" x="1532" y="245">Mickey-AI-Clone-N8N-Workflow/</text>
+
+  <rect class="green" x="1940" y="170" width="390" height="90"/>
+  <text class="h" x="1962" y="198">Ops Actions</text>
+  <text class="p" x="1962" y="223">Service on/off, model edits, vector refreshes</text>
+  <text class="mono" x="1962" y="245">authenticated admin proxy</text>
+
+  <rect class="box" x="70" y="388" width="510" height="100"/>
+  <text class="h" x="92" y="417">Frontend Mickey Client</text>
+  <text class="mono" x="92" y="440">Frontend/src/apis/mickey.js</text>
+  <text class="p" x="92" y="464">Streams chat through /api/mickey/chat/stream using SSE</text>
+
+  <rect class="box" x="620" y="388" width="510" height="100"/>
+  <text class="h" x="642" y="417">Portfolio API Mickey Proxy</text>
+  <text class="mono" x="642" y="440">APIs/routers/mickey.py</text>
+  <text class="p" x="642" y="464">Proxies admin, non-stream chat, and meeting pages to Mickey</text>
+
+  <rect class="blue" x="1170" y="388" width="510" height="100"/>
+  <text class="h" x="1192" y="417">Mickey FastAPI Routes</text>
+  <text class="mono" x="1192" y="440">AI/routers/mickey.py</text>
+  <text class="p" x="1192" y="464">Public status, chat stream, chat JSON, OAuth, meeting pages</text>
+
+  <rect class="violet" x="1720" y="388" width="610" height="100"/>
+  <text class="h" x="1742" y="417">Mickey Admin Routes</text>
+  <text class="mono" x="1742" y="440">AI/routers/mickey_admin.py</text>
+  <text class="p" x="1742" y="464">Settings, model configs, activation, update runs, vector rebuild jobs</text>
+
+  <rect class="cluster" x="70" y="625" width="650" height="360"/>
+  <text class="section" x="95" y="655">REQUEST GATES AND STREAMING</text>
+
+  <rect class="green" x="100" y="685" width="280" height="128"/>
+  <text class="hs" x="122" y="712">Preflight Gates</text>
+  <text class="ps" x="122" y="736">Load Mickey settings</text>
+  <text class="ps" x="122" y="757">Reject when service is inactive</text>
+  <text class="ps" x="122" y="778">Rate-limit by sessionId</text>
+  <text class="ps" x="122" y="799">Reject empty Query</text>
+
+  <rect class="box" x="410" y="685" width="280" height="128"/>
+  <text class="hs" x="432" y="712">Conversation Memory</text>
+  <text class="mono" x="432" y="735">Mickey/db/memory.py</text>
+  <text class="ps" x="432" y="759">ChatHistory-{sessionId}</text>
+  <text class="ps" x="432" y="780">Load bounded context</text>
+  <text class="ps" x="432" y="801">Append user and assistant turns</text>
+
+  <rect class="violet" x="100" y="845" width="590" height="100"/>
+  <text class="hs" x="122" y="872">SSE Event Contract</text>
+  <text class="ps" x="122" y="896">start, status, tool_call, tool_result, reasoning_delta, llm_chunk, final, error</text>
+  <text class="ps" x="122" y="917">The non-stream route consumes the same generator and returns JSON output.</text>
+
+  <rect class="cluster" x="760" y="625" width="795" height="360"/>
+  <text class="section" x="785" y="655">MASTER AGENT AND SPECIALISTS</text>
+
+  <rect class="blue" x="790" y="685" width="340" height="148"/>
+  <text class="hs" x="812" y="712">MasterAgent</text>
+  <text class="mono" x="812" y="735">AI/Mickey/agents/master.py</text>
+  <text class="ps" x="812" y="759">Reads master prompt and runtime rules</text>
+  <text class="ps" x="812" y="780">Calls LiteLLM with native tool specs</text>
+  <text class="ps" x="812" y="801">Up to 8 sequential tool rounds</text>
+  <text class="ps" x="812" y="822">Streams final response chunks</text>
+
+  <rect class="green" x="1160" y="685" width="365" height="148"/>
+  <text class="hs" x="1182" y="712">Mickey Tools</text>
+  <text class="ps" x="1182" y="737">developer_agent, recruiter_agent, stalker_agent</text>
+  <text class="ps" x="1182" y="758">get_current_time, get_calendar_availability</text>
+  <text class="ps" x="1182" y="779">gmail_server, google_calendar_server</text>
+  <text class="ps" x="1182" y="800">hidden google_sheets_server for leads</text>
+  <text class="ps" x="1182" y="821">Scheduling requires prior matching availability</text>
+
+  <rect class="box" x="790" y="865" width="225" height="90"/>
+  <text class="hs" x="812" y="892">Developer Agent</text>
+  <text class="ps" x="812" y="916">GitHub RAG-backed technical answers</text>
+  <text class="mono" x="812" y="938">agents/developer.py</text>
+
+  <rect class="box" x="1045" y="865" width="225" height="90"/>
+  <text class="hs" x="1067" y="892">Recruiter Agent</text>
+  <text class="ps" x="1067" y="916">Portfolio RAG-backed profile answers</text>
+  <text class="mono" x="1067" y="938">agents/recruiter.py</text>
+
+  <rect class="box" x="1300" y="865" width="225" height="90"/>
+  <text class="hs" x="1322" y="892">Stalker Agent</text>
+  <text class="ps" x="1322" y="916">Off-topic and boundary handling</text>
+  <text class="mono" x="1322" y="938">agents/stalker.py</text>
+
+  <rect class="cluster" x="1595" y="625" width="735" height="360"/>
+  <text class="section" x="1620" y="655">ADMIN AND RAG OPERATIONS</text>
+
+  <rect class="violet" x="1625" y="685" width="320" height="128"/>
+  <text class="hs" x="1647" y="712">Runtime Settings</text>
+  <text class="mono" x="1647" y="735">Mickey/db/settings.py</text>
+  <text class="ps" x="1647" y="759">service_active, timezone, owner email</text>
+  <text class="ps" x="1647" y="780">calendar id, memory window, GitHub owner</text>
+  <text class="ps" x="1647" y="801">Stored in Mickey MongoDB</text>
+
+  <rect class="amber" x="1980" y="685" width="320" height="128"/>
+  <text class="hs" x="2002" y="712">Model Slot Admin</text>
+  <text class="mono" x="2002" y="735">Mickey/llm/model_config.py</text>
+  <text class="ps" x="2002" y="759">master, developer, recruiter, stalker</text>
+  <text class="ps" x="2002" y="780">fallback, email, lead, JSON fix</text>
+  <text class="ps" x="2002" y="801">embeddings slot with dimensions</text>
+
+  <rect class="green" x="1625" y="845" width="320" height="110"/>
+  <text class="hs" x="1647" y="872">Portfolio Vector Rebuild</text>
+  <text class="mono" x="1647" y="895">rag/portfolio_updater.py</text>
+  <text class="ps" x="1647" y="919">Deactivate Mickey, delete namespaces</text>
+  <text class="ps" x="1647" y="940">Embed portfolio MongoDB collections</text>
+
+  <rect class="green" x="1980" y="845" width="320" height="110"/>
+  <text class="hs" x="2002" y="872">GitHub Vector Rebuild</text>
+  <text class="mono" x="2002" y="895">rag/github_updater.py</text>
+  <text class="ps" x="2002" y="919">Load repos and allowed source files</text>
+  <text class="ps" x="2002" y="940">Embed metadata and code chunks</text>
+
+  <rect class="box" x="70" y="1120" width="310" height="138"/>
+  <text class="hs" x="92" y="1147">Mickey MongoDB</text>
+  <text class="ps" x="92" y="1172">settings, model configs, update runs</text>
+  <text class="ps" x="92" y="1193">chat history and meeting requests</text>
+  <text class="ps" x="92" y="1214">separate rate-limit database</text>
+  <text class="mono" x="92" y="1237">MICKEY_MONGO_* env vars</text>
+
+  <rect class="green" x="415" y="1120" width="320" height="138"/>
+  <text class="hs" x="437" y="1147">Pinecone RAG</text>
+  <text class="ps" x="437" y="1172">GitHub: Repository Metadata/Data</text>
+  <text class="ps" x="437" y="1193">Portfolio: projects, skills, experience...</text>
+  <text class="ps" x="437" y="1214">Queries and upserts use embeddings slot</text>
+  <text class="mono" x="437" y="1237">rag/pinecone_store.py</text>
+
+  <rect class="violet" x="770" y="1120" width="320" height="138"/>
+  <text class="hs" x="792" y="1147">LiteLLM Providers</text>
+  <text class="ps" x="792" y="1172">Gemini, OpenAI, Anthropic</text>
+  <text class="ps" x="792" y="1193">OpenRouter, xAI</text>
+  <text class="ps" x="792" y="1214">Primary model plus fallback model</text>
+  <text class="mono" x="792" y="1237">Mickey/llm/client.py</text>
+
+  <rect class="amber" x="1125" y="1120" width="320" height="138"/>
+  <text class="hs" x="1147" y="1147">Google APIs</text>
+  <text class="ps" x="1147" y="1172">OAuth token refresh</text>
+  <text class="ps" x="1147" y="1193">Calendar freeBusy and event creation</text>
+  <text class="ps" x="1147" y="1214">Sheets lead upsert and duplicate checks</text>
+  <text class="mono" x="1147" y="1237">tools/google_auth.py</text>
+
+  <rect class="rose" x="1480" y="1120" width="320" height="138"/>
+  <text class="hs" x="1502" y="1147">Brevo Email</text>
+  <text class="ps" x="1502" y="1172">Mickey sender and branded templates</text>
+  <text class="ps" x="1502" y="1193">Contact relay, meeting updates</text>
+  <text class="ps" x="1502" y="1214">RAG update and lead alerts</text>
+  <text class="mono" x="1502" y="1237">tools/gmail.py</text>
+
+  <rect class="slate" x="1835" y="1120" width="235" height="138"/>
+  <text class="hs" x="1857" y="1147">GitHub API</text>
+  <text class="ps" x="1857" y="1172">List owner repos</text>
+  <text class="ps" x="1857" y="1193">Read recursive trees</text>
+  <text class="ps" x="1857" y="1214">Load source blobs</text>
+  <text class="mono" x="1857" y="1237">rag/github_loader.py</text>
+
+  <rect class="slate" x="2105" y="1120" width="225" height="138"/>
+  <text class="hs" x="2127" y="1147">Portfolio DB</text>
+  <text class="ps" x="2127" y="1172">Portfolio collections</text>
+  <text class="ps" x="2127" y="1193">Source for portfolio RAG</text>
+  <text class="ps" x="2127" y="1214">Managed outside Mickey</text>
+  <text class="mono" x="2127" y="1237">Database/*_dao.py</text>
+
+  <path class="lineBlue" d="M290 260 C290 330 325 345 325 388"/>
+  <path class="line" d="M775 260 C775 325 875 345 875 388"/>
+  <path class="line" d="M2135 260 C2135 325 2025 340 2025 388"/>
+  <path class="lineBlue" d="M580 438 L620 438"/>
+  <path class="lineBlue" d="M1130 438 L1170 438"/>
+  <path class="line" d="M1680 438 L1720 438"/>
+  <path class="lineBlue" d="M1425 488 C1425 555 235 555 240 685"/>
+  <path class="line" d="M2025 488 C2025 555 1785 570 1785 685"/>
+  <path class="lineGreen" d="M380 749 L410 749"/>
+  <path class="lineGreen" d="M690 749 C735 748 750 748 790 748"/>
+  <path class="lineGreen" d="M1130 759 L1160 759"/>
+  <path class="line" d="M960 833 C940 850 904 850 902 865"/>
+  <path class="line" d="M960 833 C1010 852 1157 850 1157 865"/>
+  <path class="line" d="M1130 759 C1250 805 1412 835 1412 865"/>
+  <path class="line" d="M1945 749 L1980 749"/>
+  <path class="lineGreen" d="M1785 813 L1785 845"/>
+  <path class="lineGreen" d="M2140 813 L2140 845"/>
+
+  <path class="lineDash" d="M550 813 C470 1040 250 1050 225 1120"/>
+  <path class="lineDash" d="M240 813 C220 980 220 1040 225 1120"/>
+  <path class="lineDash" d="M1015 955 C945 1040 650 1060 575 1120"/>
+  <path class="lineDash" d="M1158 955 C1020 1038 690 1060 575 1120"/>
+  <path class="lineDash" d="M1785 955 C1500 1040 700 1060 575 1120"/>
+  <path class="lineDash" d="M1342 833 C1240 1015 970 1060 930 1120"/>
+  <path class="lineDash" d="M1785 955 C1620 1025 1640 1060 1640 1120"/>
+  <path class="lineDash" d="M1785 955 C1955 1025 1952 1060 1952 1120"/>
+  <path class="lineDash" d="M2140 955 C1950 1020 1285 1060 1285 1120"/>
+  <path class="lineDash" d="M1785 955 C2030 1015 2190 1060 2218 1120"/>
+
+  <rect class="box" x="70" y="1298" width="2260" height="36"/>
+  <text class="tag" x="95" y="1321">LEGEND</text>
+  <line x1="180" y1="1316" x2="245" y2="1316" class="lineBlue"/>
+  <text class="ps" x="260" y="1321">chat/request path</text>
+  <line x1="420" y1="1316" x2="485" y2="1316" class="lineGreen"/>
+  <text class="ps" x="500" y="1321">Mickey runtime/tool flow</text>
+  <line x1="720" y1="1316" x2="785" y2="1316" class="lineDash"/>
+  <text class="ps" x="800" y="1321">data/provider dependency</text>
+  <text class="ps" x="1020" y="1321">Operational rule: Mickey is deactivated during Pinecone namespace rebuilds to avoid partial RAG answers.</text>
+</svg>
