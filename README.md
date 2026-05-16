@@ -37,6 +37,17 @@ I am a Software and AI/ML Engineer with a Master’s in Computer Science from Sa
 
 ---
 
+## 🧠 System Architecture: Mickey (AI Digital Twin)
+> *A deep dive into the orchestration, RAG pipelines, and multi-agent routing powering my digital clone.*
+
+<div align="center">
+  <a href="https://heyitsaman.dev" target="_blank">
+    <img src="AI_Mickey_Detailed_Architecture.svg" alt="Mickey AI Architecture" width="100%">
+  </a>
+</div>
+
+---
+
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&hide_border=true&bg_color=0D1117" alt="Random Quote" />
 </div>
